@@ -22,8 +22,12 @@ This project is a .NET application that uses Entity Framework Core and SQL Serve
     git clone https://github.com/Dzalapino/CSharpEFCoreExample.git
     cd SemistructuralProject
     ```
+3. **Update the database with migrations:**
+   ```bash
+   dotnet ef database update
+   ```
 
-3. **Build and Run the Project:**
+5. **Build and Run the Project:**
 
     Once the DevContainer is set up, you can build and run the project using the integrated terminal:
 
@@ -67,7 +71,12 @@ This project is a .NET application that uses Entity Framework Core and SQL Serve
     }
     ```
 
-3. **Build and Run the Project:**
+3.  **Update the database with migrations:**
+    ```bash
+    dotnet ef database update
+    ```
+
+4.  **Build and Run the Project:**
 
     Use the following commands to build and run the project:
 
